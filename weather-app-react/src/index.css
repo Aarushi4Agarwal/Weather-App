@@ -41,6 +41,24 @@ h1 {
   z-index: -1;
 }
 
+.app .search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 23px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
 .container {
   max-width: 700px;
   height: 700px;
@@ -65,7 +83,7 @@ h1 {
   transform: rotate(267deg);
 }
 
-.app .bottom{
+.app .bottom {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -73,9 +91,9 @@ h1 {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.bold{
+.bold {
   font-weight: 700;
 }
